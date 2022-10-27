@@ -1,0 +1,88 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+* {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.header-img-c {
+  border: solid 1px #00000000;
+}
+
+.header-c {
+  max-width: 700px;
+  margin: auto;
+  padding: 0px 40px;
+}
+
+.intro-c {
+  max-width: 1000px;
+  margin: auto;
+  padding: 10px;
+}
+
+.intro-c p {
+  font-size: 20px;
+}
+
+.site-title {
+  font-size: 64px;
+  text-align: center;
+  padding: 0px;
+  margin: 50px 0px 0px 0px;
+}
+
+.site-subtitle {
+  font-size: 24px;
+  text-align: center;
+}
+
+.section-c {
+  display: grid;
+  padding: 20px;
+  margin: auto;
+  max-width: 1000px;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: solid 1px black;
+}
+
+.section-c p {
+  text-align: justify;
+}
+
+.subsection {
+  margin: 10px;
+}
+
+.description-c {
+  text-align: right;
+}
+
+.work-c {
+  padding: 30px 0px;
+}
+
+
+a {
+  color: gray;
+  cursor: pointer;
+}
+
+iframe {
+  /* border: solid 1px lightgray; */
+  border: none;
+  min-width: 550px;
+  min-height: 500px;
+}
+
+.game-gif {
+  width: 200px;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
