@@ -7,8 +7,15 @@ body {
   font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
+#general {
+  background: #fbfbfb;
+}
+
 .header-img-c {
   border: solid 1px #00000000;
+  background-size: cover;
+  max-width: 960px;
+  margin: auto;
 }
 
 .header-c {
@@ -32,6 +39,7 @@ body {
   text-align: center;
   padding: 0px;
   margin: 50px 0px 0px 0px;
+  color: red;
 }
 
 .site-subtitle {
@@ -43,7 +51,7 @@ body {
   display: grid;
   padding: 20px;
   margin: auto;
-  max-width: 1000px;
+  max-width: 1050px;
   grid-template-columns: 1fr 1fr;
   border-bottom: solid 1px black;
 }
@@ -64,9 +72,17 @@ body {
   padding: 30px 0px;
 }
 
+.work-title {
+  color: red;
+}
+
+.work-subtitle {
+  color: #26abfb;
+}
+
 
 a {
-  color: gray;
+  color: #26abfb;
   cursor: pointer;
 }
 
